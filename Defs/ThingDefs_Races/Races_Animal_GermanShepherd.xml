@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <ThingDef ParentName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
     <defName>GermanShepherd</defName>
     <label>german shepherd</label>
     <description> Said to be the most intelligent and loyal dog ever, the German Shepherd or Alsatian is a working dog breed with good combat capabilities.</description>
