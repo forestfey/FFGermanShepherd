@@ -3,9 +3,6 @@
 
   <GermanShepherd.label>немецкая овчарка</GermanShepherd.label>
   <GermanShepherd.description>Немецкая овчарка - универсальна. Она одинаково хорошо может быть пастухом, сторожем, ищейкой и домашним любимцем. Возможно самая умная и преданная порода собак.</GermanShepherd.description>
-  <GermanShepherd_Leather.label>шкура овчарки</GermanShepherd_Leather.label>
-  <GermanShepherd_Leather.description>Шкура, снятая с овчарки.</GermanShepherd_Leather.description>
-  <GermanShepherd_Leather.stuffProps.stuffAdjective>шкуры овчарки</GermanShepherd_Leather.stuffProps.stuffAdjective>
   <GermanShepherd_Meat.label>мясо овчарки</GermanShepherd_Meat.label>
   <GermanShepherd_Meat.description>Сырое мясо овчарки.</GermanShepherd_Meat.description>
   <GermanShepherd_Corpse.label>туша овчарки</GermanShepherd_Corpse.label>

@@ -3,9 +3,6 @@
 
   <GermanShepherd.label>Deutscher Schäferhund</GermanShepherd.label>
   <GermanShepherd.description>Angeblich die klügste und treueste Hunderasse von allen, ist der Deutsche Schäferhund ein Arbeitstier mit guten Kampfeigenschaften.</GermanShepherd.description>
-  <GermanShepherd_Leather.label>Schäferhundfell</GermanShepherd_Leather.label>
-  <GermanShepherd_Leather.description>Das Fell eines Schäferhunds.</GermanShepherd_Leather.description>
-  <GermanShepherd_Leather.stuffProps.stuffAdjective>Schäferhundfell</GermanShepherd_Leather.stuffProps.stuffAdjective>
   <GermanShepherd_Meat.label>Schäferhundfleisch</GermanShepherd_Meat.label>
   <GermanShepherd_Meat.description>Das Fleisch eines Schäferhunds.</GermanShepherd_Meat.description>
   <GermanShepherd_Corpse.label>Toter Schäferhund</GermanShepherd_Corpse.label>
