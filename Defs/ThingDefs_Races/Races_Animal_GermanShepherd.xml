@@ -35,6 +35,7 @@
       </li>
     </verbs>
     <race>
+	  <packAnimal>true</packAnimal>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
