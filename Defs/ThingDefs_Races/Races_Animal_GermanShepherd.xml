@@ -2,40 +2,56 @@
 <Defs>
 
 
-  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+    <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
     <defName>GermanShepherd</defName>
     <label>german shepherd</label>
-    <description> Said to be the most intelligent and loyal dog ever, the German Shepherd or Alsatian is a working dog breed with good combat capabilities.</description>
+    <description>Said to be the most intelligent and loyal dog ever, the German Shepherd or Alsatian is a working dog breed with good combat capabilities.</description>
     <statBases>
       <MoveSpeed>5.25</MoveSpeed>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <MarketValue>420</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>14.5</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
     <race>
-	  <packAnimal>true</packAnimal>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
@@ -43,12 +59,11 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.05</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(209,168,39)</leatherColor>
-      <leatherLabel>sheepdog fur</leatherLabel>
-      <leatherInsulation>1.0</leatherInsulation>
+      <leatherDef>Leather_Dog</leatherDef>
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
+	  <packAnimal>true</packAnimal>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
@@ -94,6 +109,7 @@
     <labelPlural>german shepherds</labelPlural>
     <race>GermanShepherd</race>
     <combatPower>65</combatPower>
+	<ecoSystemWeight>0.7</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>shepherd puppy</label>
@@ -103,7 +119,7 @@
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -117,7 +133,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -131,12 +147,11 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
   </PawnKindDef>
   
-</Defs>
+  </Defs>
