@@ -99,8 +99,9 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
-	  <li>BadassAnimal</li>
+      <li>AnimalPet</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
