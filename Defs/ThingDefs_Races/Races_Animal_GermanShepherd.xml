@@ -60,7 +60,7 @@
       <baseHealthScale>1.05</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Dog</leatherDef>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
       <packAnimal>true</packAnimal>
@@ -87,7 +87,7 @@
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.8</minAge>
+          <minAge>0.5</minAge>
           <soundWounded>Pawn_Dog_Injured</soundWounded>
           <soundDeath>Pawn_Dog_Death</soundDeath>
           <soundCall>Pawn_Dog_Call</soundCall>
