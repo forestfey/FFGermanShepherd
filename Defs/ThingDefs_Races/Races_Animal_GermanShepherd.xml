@@ -63,7 +63,7 @@
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
-	  <packAnimal>true</packAnimal>
+      <packAnimal>true</packAnimal>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
