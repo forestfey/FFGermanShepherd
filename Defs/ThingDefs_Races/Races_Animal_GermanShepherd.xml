@@ -109,7 +109,7 @@
     <labelPlural>german shepherds</labelPlural>
     <race>GermanShepherd</race>
     <combatPower>65</combatPower>
-	<ecoSystemWeight>0.7</ecoSystemWeight>
+    <ecoSystemWeight>0.7</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>shepherd puppy</label>
@@ -153,5 +153,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  
+
 </Defs>
