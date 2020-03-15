@@ -3,8 +3,9 @@
   <name>FFGermanShepherd</name>
   <author>forestfey</author>
   <supportedVersions>
-		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+<packageId>forestfey.GermanShepherd</packageId>
   <description>
 	Adds a new dogbreed, the German Shepherd or Alsatian, modded as a slightly more combat-capable and thus, expensive Husky.</description>
 </ModMetaData>
